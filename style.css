@@ -76,9 +76,15 @@ h1 {
     line-height: 3;
 }
 
-h3 {
-    padding-top: 31px;
-}
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    }
 
 
 
