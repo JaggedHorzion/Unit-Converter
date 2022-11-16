@@ -5,9 +5,10 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
     text-align: center;
     margin-top: 36px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .heading {
@@ -17,6 +18,7 @@ body {
     left: 0px;
     top: 0px;
     color: white;
+    border-radius: 5px;
 }
 
 h1 {
@@ -56,3 +58,28 @@ h1 {
     text-align: center;
     color: #FFFFFF;
 }
+
+
+.unit-convertors {
+    margin: 25px;
+    width: 500px;
+    height: 108.57px;
+    background: #273549;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+    line-height: 3;
+}
+
+h3 {
+    padding-top: 31px;
+}
+
+
+
+
