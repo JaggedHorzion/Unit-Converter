@@ -44,6 +44,14 @@ h1 {
     border-radius: 5px;
 }
 
+/*#input-btn:hover {
+    background-color: gray;
+}*/
+
+#input-btn:active {
+    background-color: gray;
+}
+
 #input-el {
     width: 117px;
     height: 83px;

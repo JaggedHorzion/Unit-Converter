@@ -21,7 +21,7 @@ const poundToKilo = 0.453
 inputBtn.addEventListener("click", function() {
     let baseValue = inputEl.value
     
-    meterFeet.textContent = `${baseValue} meter = ${baseValue * meterToFeet} feet | ${baseValue} feet = ${baseValue * feetToMeter} meters`
-    literGallon.textContent = `${baseValue} meter = ${baseValue * literToGallon} feet | ${baseValue} feet = ${baseValue * gallonToLiter} meters`
-    kiloPound.textContent = `${baseValue} meter = ${baseValue * kiloToPound} feet | ${baseValue} feet = ${baseValue * poundToKilo} meters`
+    meterFeet.textContent = `${baseValue} meter = ${Number(baseValue * meterToFeet).toFixed(3)} feet | ${baseValue} feet = ${Number(baseValue * feetToMeter).toFixed(3)} meters`
+    literGallon.textContent = `${baseValue} liter = ${Number(baseValue * literToGallon).toFixed(3)} gallon | ${baseValue} gallon = ${Number(baseValue * gallonToLiter).toFixed(3)} liters`
+    kiloPound.textContent = `${baseValue} kilo = ${Number(baseValue * kiloToPound).toFixed(3)} pound | ${baseValue} pound = ${Number(baseValue * poundToKilo).toFixed(3)} kilos`
 })
