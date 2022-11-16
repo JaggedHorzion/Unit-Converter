@@ -94,6 +94,11 @@ h1 {
     color: #FFFFFF;
     }
 
-
+@media only screen and (max-width: 550px) {
+.container {
+            transform: scale(0.8, 0.8);
+            margin-top: -50px;
+        }
+    }
 
 
